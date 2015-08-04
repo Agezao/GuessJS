@@ -1,0 +1,44 @@
+html, body{margin: 0; padding: 0; background:#FFE7D2 }
+
+*{text-align: center; font-family: 'Open Sans', sans-serif;}
+
+h1, p{
+	font-size: 46px;
+	margin:0;
+	color: #426664;
+	padding: 20px 0 0 0;
+}
+p{
+	color: #555;
+	font-size: 18px;
+	font-weight: 200;
+	max-width: 800px;
+	padding: 15px 5%;
+}
+
+#numbers{
+	margin:0 0 25px 0;
+}
+#numbers > div{
+    width: 42px;
+    height: 36px;
+    background: #fff;
+    display: inline-block;
+    border: 1px solid #a6a6a6;
+    vertical-align: middle;
+    padding: 15px 0 0 0;
+}
+
+button{
+	-moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    padding: 3px 6px;
+    text-align: center;
+    border: 1px solid #a6a6a6;
+    margin-right: 5px;
+    background-color: #e6e6e6;
+    color: #808080;
+    font-size: 22px;
+}
+button[right]{background: #75C69E; color: #fff;}
+button[wrong]{background: #AA5863; color: #fff;}
